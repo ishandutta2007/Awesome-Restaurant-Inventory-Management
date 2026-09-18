@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400"><defs><linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0f172a"/><stop offset="50%" stop-color="#1e1b4b"/><stop offset="100%" stop-color="#0f172a"/></linearGradient><linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f59e0b"/><stop offset="50%%" stop-color="#ec4899"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient><filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="15" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter></defs><style>.title {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  fill: #ffffff;
+}
+.subtitle {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  fill: #cbd5e1;
+}
+.badge-text {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  fill: #f59e0b;
+}
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.4; }
+  50% { transform: scale(1.08); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 0.4; }
+}
+@keyframes float1 {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(2deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+@keyframes float2 {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(10px) rotate(-2deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+.pulse-bg {
+  animation: pulse 6s ease-in-out infinite;
+  transform-origin: center;
+}
+.floating-card-1 {
+  animation: float1 5s ease-in-out infinite;
+}
+.floating-card-2 {
+  animation: float2 7s ease-in-out infinite;
+}
+.animated-stream {
+  stroke-dasharray: 8 8;
+  animation: dash 2s linear infinite;
+}</style><rect width="1280" height="400" fill="url(#bgGrad)"/><circle cx="200" cy="100" r="180" fill="#3b82f6" opacity="0.15" filter="url(#glow)" class="pulse-bg"/><circle cx="1080" cy="300" r="220" fill="#ec4899" opacity="0.12" filter="url(#glow)" class="pulse-bg"/><g opacity="0.05"><path d="M0 50H1280 M0 100H1280 M0 155H1280 M0 200H1280 M0 250H1280 M0 300H1280 M0 350H1280" stroke="#ffffff" stroke-width="1"/><path d="M100 0V400 M200 0V400 M300 0V400 M400 0V400 M500 0V400 M600 0V400 M700 0V400 M800 0V400 M900 0V400 M1000 0V400 M1100 0V400 M1200 0V400" stroke="#ffffff" stroke-width="1"/></g><g class="floating-card-1" transform="translate(850, 60)"><rect x="0" y="0" width="340" height="260" rx="16" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="2" filter="url(#glow)"/><rect x="20" y="20" width="120" height="12" rx="6" fill="#f59e0b" opacity="0.8"/><rect x="20" y="42" width="200" height="8" rx="4" fill="#64748b" opacity="0.5"/><rect x="30" y="180" width="28" height="50" rx="4" fill="#3b82f6" opacity="0.8"/><rect x="75" y="140" width="28" height="90" rx="4" fill="#10b981" opacity="0.8"/><rect x="120" y="160" width="28" height="70" rx="4" fill="#f59e0b" opacity="0.8"/><rect x="165" y="110" width="28" height="120" rx="4" fill="#ec4899" opacity="0.8"/><rect x="210" y="90" width="28" height="140" rx="4" fill="#8b5cf6" opacity="0.9"/><rect x="255" y="130" width="28" height="100" rx="4" fill="#06b6d4" opacity="0.8"/><path d="M44 170 L 89 130 L 134 150 L 179 100 L 224 75 L 269 115" fill="none" stroke="#6366f1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 170 L 89 130 L 134 150 L 179 100 L 224 75 L 269 115" fill="none" stroke="#a855f7" stroke-width="2" class="animated-stream"/></g><g class="floating-card-2" transform="translate(770, 190)"><rect x="0" y="0" width="220" height="130"ÉàôˆÄÐˆ™¥±°ôˆŒÁ˜ÄÜÉ„ˆ™¥±°µ½Á…¥ÑäôˆÀ¸àÔˆÍÑÉ½­”ôˆŒÐÜÔÔØäˆÍÑÉ½­”µÝ¥‘Ñ ôˆÄ¸Ôˆ¼øñ¥É±”àôˆÐÔˆäôˆÐÈˆÈôˆÄàˆ™¥±°ôˆŒÄÁˆäàÄˆ½Á…¥ÑäôˆÀ¸Èˆ¼øñÑ•áÐàôˆÐÔˆäôˆÐàˆ™½¹Ðµ™…µ¥±äô‰Í…¹ÌµÍ•É¥˜ˆ™½¹ÐµÍ¥é”ôˆÄàˆÑ•áÐµ…¹¡½Èô‰µ¥‘‘±”ˆ™¥±°ôˆŒÄÁˆäàÄˆûÂ~A9|ð½Ñ•áÐøñÑ•áÐàôˆÜÔˆäôˆÌàˆ™½¹Ðµ™…µ¥±äô‰M•½”U$°Í…¹ÌµÍ•É¥˜ˆ™½¹ÐµÝ•¥¡ÐôˆÜÀÀˆ™½¹ÐµÍ¥é”ôˆÄÔˆ™¥±°ôˆ™™™™™˜ˆù½½½ÍÐð½Ñ•áÐøñÑ•áÐàôˆÜÔˆäôˆÔÔˆ™½¹Ðµ™…µ¥±äô‰M•½”U$°Í…¹ÌµÍ•É¥˜ˆ™½¹ÐµÝ•¥¡ÐôˆÐÀÀˆ™½¹ÐµÍ¥é”ôˆÄÈˆ™¥±°ôˆŒÄÁˆäàÄˆø´Ð¸È”Y…É¥…¹”ð½Ñ•áÐøñ±¥¹”àÄôˆÈÀˆäÄôˆÜÔˆàÈôˆÈÀÀˆäÈö75" stroke="#334155" stroke-width="1"/><text x="25" y="100" font-family="Segoe UI, sans-serif" font-weight="600" font-size="12" fill="#94a3b8">Theoretical vs Actual</text></g><g transform="translate(80, 0)"><g transform="translate(0, 75)"><rect x="0" y="0" width="310" height="34"ÉàôˆÄÜˆ™¥±°ôˆŒÅ”ÈäÍˆˆÍÑÉ½­”ôˆ˜Ôå”ÁˆˆÍÑÉ½­”µÝ¥‘Ñ ôˆÄ¸Ôˆ¼øñÑ•áÐàôˆÄÔˆäôˆÈÈˆ±…ÍÌô‰‰…‘”µÑ•áÐˆûÂ~Âc¾â<]M=5!=MA%Q1%QdQ ð½Ñ•áÐøð½œøñÑ•áÐàôˆÀˆäôˆÄÜÔˆ±…ÍÌô‰Ñ¥Ñ±”ˆùÝ•Í½µ”I•ÍÑ…ÕÉ…¹Ðð½Ñ•áÐøñÑ•áÐàôˆÀˆäôˆÈÌÔˆ±…ÍÌô‰Ñ¥Ñ±”ˆ™¥±°ô‰ÕÉ° …•¹ÑÉ…¤ˆù%¹Ù•¹Ñ½Éä5…¹…•µ•¹ÐƒÂ~N(
