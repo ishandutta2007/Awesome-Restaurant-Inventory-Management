@@ -51,7 +51,7 @@ Key Capabilities evaluated:
 
 > Open-source hospitality and inventory solutions provide high customizability, zero vendor lock-in, and self-hosted privacy for restaurants, commissaries, and developers building bespoke back-of-house automation.
 
-### 🏆 Open-Source Repository Ranking (Sorted by Star Count ⭐)
+### 🏆 Open-Source Repository Ranking (Sorted by Stars_Count ⭐)
 
 - **[Odoo](https://github.com/odoo/odoo)** <a href="https://github.com/odoo/odoo/stargazers"><img src="https://img.shields.io/github/stars/odoo/odoo?style=social&color=white" alt="Odoo Stars"/></a>  
   🌐 Open-source suite of business apps including advanced inventory control, MRP, bill of materials (BOM), purchasing, and Point of Sale module suitable for restaurant chains.
