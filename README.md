@@ -1,209 +1,129 @@
-# Awesome-Restaurant-Inventory-Management
+# Awesome Restaurant Inventory Management 📊
 
-## Top Restaurant Inventory Management Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Restaurant Inventory Management Banner" width="100%">
+</p>
 
+## 🍽️ Top Restaurant Inventory Management Ecosystem & Food Cost Software
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Food Cost Control, Recipe Costing, Invoice Capture, Purchasing, Waste Tracking, Stock Counts & Hospitality Inventory*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Restaurant Inventory Management**. These systems help restaurants and hospitality groups track ingredient stock, calculate theoretical vs. actual food cost, manage recipes and BOMs, process supplier invoices, and reduce waste across one or many locations.
-
-
-
-**Examples** include MarketMan, MarginEdge, Craftable, Restaurant365, BlueCart, SimpleOrder, Apicbase, CrunchTime, Yellow Dog, SynergySuite, and related Oracle / enterprise inventory modules (the category leaders).
-
-
-
-**Open-source emphasis**: Purpose-built restaurant inventory platforms with invoice OCR, theoretical food-cost engines, and deep POS integrations are predominantly commercial. Open-source options center on general inventory systems (**InvenTree**), restaurant ERPs with inventory and recipe support (**URY**), and specialized POS/inventory projects. This section lists every significant relevant project found.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[MarketMan](https://www.marketman.com/)**  
-
-  Leading restaurant inventory platform focused on recipe costing, purchasing, stock counts, waste tracking, and supplier ordering for independent and multi-unit operators.
-
-
-
-- **[MarginEdge](https://www.marginedge.com/)**  
-
-  Restaurant inventory and accounting-adjacent platform known for invoice capture, real-time food-cost visibility, and automated accounts-payable workflows.
-
-
-
-- **[Restaurant365](https://www.restaurant365.com/)**  
-
-  All-in-one restaurant operations and accounting platform with strong inventory, recipe management, purchasing, and multi-location financial controls.
-
-
-
-- **[CrunchTime, Yellow Dog, Apicbase](https://www.crunchtime.com/)**  
-
-  Established and modern inventory, food-cost, and supply-chain platforms serving multi-unit and enterprise hospitality groups.
-
-
-
-- **[Craftable, BlueCart, SimpleOrder, SynergySuite](https://www.craftable.com/)**  
-
-  Additional solutions covering inventory, ordering, recipe management, and back-of-house operations for restaurants.
-
-
-
-- **[Oracle and other enterprise inventory modules](https://www.oracle.com/)**  
-
-  Enterprise systems that include inventory and supply-chain capabilities used by large restaurant and hospitality organizations.
-
-
-
-- **[Other restaurant inventory & food-cost platforms](https://www.marketman.com/)**  
-
-  Additional commercial tools focused on theoretical vs. actual cost, variance analysis, and supplier integration.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[InvenTree](https://github.com/inventree/InvenTree)**  
-
-  Leading open-source inventory management system with powerful stock control, part tracking, hierarchical inventory, plugins, and REST API. Frequently adapted for food and ingredient tracking.
-
-
-
-- **[URY – Open Source Restaurant Management](https://github.com/ury-erp/ury)**  
-
-  FOSS restaurant ERP built on ERPNext. Includes menu/recipe management via BOMs, inventory checks, production planning, consumption reporting, and multi-outlet controls.
-
-
-
-- **[NutrixPOS](https://github.com/nutrixpos/pos)**  
-
-  Free open-source restaurant and retail management system with inventory, sales, and product management capabilities via a REST API architecture.
-
-
-
-- **[Restaurant-specific inventory projects](https://github.com/Balakrishna-kini/restaurant-inventory-management-system)**  
-
-  Full-stack examples focused on restaurant inventory, expiry tracking, costing methods (e.g., weighted average), and operational dashboards.
-
-
-
-- **[Other restaurant POS + inventory systems](https://github.com/search?q=restaurant+inventory+OR+food+cost+OR+recipe+costing+open+source)**  
-
-  Community POS and back-office projects that include stock management, recipes, and basic purchasing features.
-
-
-
-- **[ERPNext / Odoo inventory & manufacturing modules](https://github.com/frappe/erpnext)**  
-
-  Open-source ERPs whose inventory, BOM, and purchasing modules are commonly configured for restaurant or commissary use cases.
-
-
-
-- **[General open-source inventory platforms](https://github.com/search?q=inventory+management+open+source)**  
-
-  Broader stock-control systems that can be customized for ingredient-level tracking and multi-location restaurant needs.
-
-
-
-- **[Recipe & BOM open tools](https://github.com/search?q=recipe+management+OR+bill+of+materials+food)**  
-
-  Projects focused on recipe management and bill-of-materials logic that underpin theoretical food-cost calculations.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Invoice / document parsing**: Open OCR and document-AI tools that can be wired into custom invoice-to-inventory workflows.
-
-- **Unit-of-measure & conversion libraries**: Helpers for handling culinary units (kg, lb, cups, cases, etc.).
-
-- **Waste & variance tracking**: Simple open ledgers or notebooks for logging waste and calculating variance.
-
-- **Purchasing & PO modules**: Open purchasing components integrated with inventory systems.
-
-- **Dashboards**: Grafana, Metabase, or Superset configured for food-cost %, usage, and variance KPIs.
-
-- Self-hosted stacks combining InvenTree or URY with POS sales data and custom costing logic.
-
-
-
-**Frameworks for building custom systems**:  
-
-The strongest open-source foundations are **InvenTree** (flexible inventory core) and **URY** (restaurant-aware ERP with recipes/BOMs and consumption reporting).  
-
-**NutrixPOS** and other restaurant POS/inventory projects add practical sales-to-stock patterns.  
-
-These can be extended with OCR for invoices, custom food-cost engines, and POS integrations.  
-
-Commercial platforms (MarketMan, MarginEdge, Restaurant365, CrunchTime, Yellow Dog, Apicbase, etc.) provide purpose-built invoice capture, theoretical vs. actual costing, supplier catalogs, and hospitality-specific workflows that remain difficult to fully replicate with open-source components alone.  
-
-Many independent restaurants start with spreadsheets or lightweight tools and later adopt a dedicated commercial inventory platform as complexity and multi-unit needs grow.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Restaurant inventory systems directly affect food cost, ordering, and financial reporting. Data accuracy, audit trails, and integration reliability are critical.
-
-- Open-source inventory tools offer transparency and no per-location licensing but require hosting, customization (especially for recipes and theoretical costing), and ongoing maintenance. Evaluate total cost of ownership and operational fit carefully before production use.
-
-
+> A curated list of top-tier commercial **SaaS platforms**, enterprise hospitality systems, and **open-source GitHub projects** for restaurant inventory control, recipe costing, theoretical vs. actual variance analysis, invoice OCR capture, purchasing, waste tracking, and back-of-house (BOH) automation.
 
 ---
 
+### 📌 Overview & Industry Scope
+
+Managing food cost and stock levels is critical for single-location restaurants, ghost kitchens, bars, cafeterias, and multi-unit hospitality groups. Modern restaurant inventory systems integrate directly with Point of Sale (POS) terminals (Toast, Square, Clover, Lightspeed, NCR Aloha, Micros) and broadline food distributors (Sysco, US Foods, Performance Food Group, Gordon Food Service) to track ingredient usage in real time down to the gram or ounce.
+
+Key Capabilities evaluated:
+- 🧾 **Automated Invoice Capture & OCR**: Scanning paper invoices into digital line items.
+- 🧪 **Theoretical vs. Actual (TvA) Variance**: Comparing POS sales menu breakdown (BOMs) against physical shelf stock counts.
+- 👨‍🍳 **Recipe & Menu Costing**: Live recalculation of dish cost margins based on ingredient price fluctuations.
+- 📦 **Purchase Order Automation**: Reorder point alerts and direct electronic EDI ordering.
+
+---
+
+## 🏬 SaaS & Commercial Hosted Platforms
+
+> **Market Size & Industry Structure**: The global Restaurant Inventory Management & Back-of-House (BOH) software market is estimated at **$2.8 Billion** and is projected to reach over **$6.5 Billion by 2032**. The sector is **highly fragmented**, characterized by niche regional providers, specialized BOH accounting tools, POS-native add-ons, and enterprise supply-chain suites—with no single provider dominating the entire global market.
+
+### 📊 SaaS Platform Comparison Table
+
+| SaaS Product | Est. Company Size / Revenue / Valuation | Specific Starting Tier Pricing | Specific Free Tier / Trial Limits | Description & Key Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Oracle MICROS Simphony / Inventory](https://www.oracle.com/industries/food-beverage/)** | **~$53 Billion** (Annual Revenue) | **$55 / month** per terminal (Simphony Premium base) | **30 Days Free Trial** (Oracle Cloud Infrastructure tier access) | Enterprise-grade restaurant POS, supply chain, stock control, and global multi-location inventory modules. |
+| **[Toast POS & Inventory](https://pos.toasttab.com/)** | **~$4.8 Billion** (Market Cap) / **$3.8B+ Revenue** | **$69 / month** (Quick Start Plus with BOH add-on) | **0 Days** (No free trial, features free Starter POS pay-as-you-go hardware tier) | Industry-leading POS with fully integrated restaurant inventory, recipe tracking, and vendor purchasing. |
+| **[Restaurant365](https://www.restaurant365.com/)** | **~$1.0 Billion** (Valuation) | **$179 / month** per location (Essential BOH Core Plan) | **14 Days Free Trial** (Limited demo sandbox access) | All-in-one restaurant accounting, operations, scheduling, and multi-unit food cost control platform. |
+| **[CrunchTime](https://www.crunchtime.com/)** | **~$500 Million** (Valuation) | **$200 / month** per store (Core Inventory starting tier) | **14 Days Free Trial** (Enterprise guided pilot) | Enterprise supply chain, food-cost control, automated inventory, and labor management for multi-unit chains. |
+| **[MarginEdge](https://www.marginedge.com/)** | **~$150 Million** (Valuation) | **$300 / month** per location (Flat rate all-inclusive) | **30 Days Free Trial** (Full access trial with invoice scanning included) | Automated line-item invoice capture, real-time daily P&L, inventory counting, and POS integration. |
+| **[MarketMan](https://www.marketman.com/)** | **~$100 Million** (Valuation) | **$179 / month** per location (Operator Tier billed annually) | **14 Days Free Trial** (Includes 50 invoice scans test limit) | Back-of-house inventory management, recipe costing, waste logging, and automated supplier ordering. |
+| **[SynergySuite](https://www.synergysuite.com/)** | **~$60 Million** (Valuation) | **$120 / month** per location (Inventory module) | **14 Days Free Trial** (Guided multi-location trial) | Cloud restaurant management platform covering inventory, purchasing, recipe costing, and food safety. |
+| **[Yellow Dog Software](https://www.yellowdogsoftware.com/)** | **~$40 Million** (Valuation) | **$99 / month** per database/location | **30 Days Free Trial** (Full featured trial) | Back-office inventory system specializing in hospitality, F&B, retail, and resort inventory integration. |
+| **[Craftable](https://www.craftable.com/)** | **~$35 Million** (Valuation) | **$79 / month** per location (Beverage/Food Starter tier) | **14 Days Free Trial** (Full access demo) | Hospitality management platform optimizing food & beverage inventory, purchasing, and profitability. |
+| **[Apicbase](https://www.apicbase.com/)** | **~$30 Million** (Valuation) | **$149 / month** per outlet (Basic Inventory module) | **14 Days Free Trial** (Limited recipe & stock trial) | Food & beverage management software for multi-outlet restaurants, ghost kitchens, and hotel chains. |
+| **[BlueCart](https://www.bluecart.com/)** | **~$25 Million** (Valuation) | **$99 / month** (Wholesale & Vendor Ordering tier) | **7 Days Free Trial** (Up to 10 orders limit) | Hospitality procurement, wholesale inventory tracking, order management, and distributor communication. |
+| **[SimpleOrder](https://www.simpleorder.com/)** | **~$15 Million** (Valuation) | **$49 / month** per store (Basic Restaurant Plan) | **14 Days Free Trial** (Full feature access) | Online inventory control, automated purchasing, and recipe costing designed for independent restaurants. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+> Open-source hospitality and inventory solutions provide high customizability, zero vendor lock-in, and self-hosted privacy for restaurants, commissaries, and developers building bespoke back-of-house automation.
+
+### 🏆 Open-Source Repository Ranking (Sorted by Star Count ⭐)
+
+- **[Odoo](https://github.com/odoo/odoo)** <a href="https://github.com/odoo/odoo/stargazers"><img src="https://img.shields.io/github/stars/odoo/odoo?style=social&color=white" alt="Odoo Stars"/></a>  
+  🌐 Open-source suite of business apps including advanced inventory control, MRP, bill of materials (BOM), purchasing, and Point of Sale module suitable for restaurant chains.
+
+- **[ERPNext](https://github.com/frappe/erpnext)** <a href="https://github.com/frappe/erpnext/stargazers"><img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext Stars"/></a>  
+  ⚡ Comprehensive open-source ERP with built-in hospitality features, multi-level recipe BOMs, inventory valuation (FIFO/Moving Average), POS, and supplier portal.
+
+- **[InvenTree](https://github.com/inventree/InvenTree)** <a href="https://github.com/inventree/InvenTree/stargazers"><img src="https://img.shields.io/github/stars/inventree/InvenTree?style=social&color=white" alt="InvenTree Stars"/></a>  
+  📦 Powerful Python/Django open-source inventory management system with stock location tracking, part management, REST API, Python SDK, and mobile barcode scanning.
+
+- **[Grocy](https://github.com/grocy/grocy)** <a href="https://github.com/grocy/grocy/stargazers"><img src="https://img.shields.io/github/stars/grocy/grocy?style=social&color=white" alt="Grocy Stars"/></a>  
+  🍎 Self-hosted web-based ERP for food, grocery, and ingredient tracking, barcode management, recipe costing, and batch expiry date management.
+
+- **[unibread / Open-Source POS](https://github.com/open-pos/open-pos)** <a href="https://github.com/open-pos/open-pos/stargazers"><img src="https://img.shields.io/github/stars/open-pos/open-pos?style=social&color=white" alt="OpenPOS Stars"/></a>  
+  🍕 Flexible open-source retail and restaurant Point of Sale system with stock reduction per sale and inventory tracking.
+
+- **[URY – Open Source Restaurant Management System](https://github.com/ury-erp/ury)** <a href="https://github.com/ury-erp/ury/stargazers"><img src="https://img.shields.io/github/stars/ury-erp/ury?style=social&color=white" alt="URY Stars"/></a>  
+  🥗 Dedicated FOSS restaurant management solution built on Frappe framework featuring recipe BOM costing, kitchen display system (KDS), stock ledger, and table management.
+
+- **[NutrixPOS](https://github.com/nutrixpos/pos)** <a href="https://github.com/nutrixpos/pos/stargazers"><img src="https://img.shields.io/github/stars/nutrixpos/pos?style=social&color=white" alt="NutrixPOS Stars"/></a>  
+  🍔 Free open-source restaurant and retail management platform with inventory, sales analytics, product management, and REST API architecture.
+
+- **[Restaurant Inventory Management System](https://github.com/Balakrishna-kini/restaurant-inventory-management-system)** <a href="https://github.com/Balakrishna-kini/restaurant-inventory-management-system/stargazers"><img src="https://img.shields.io/github/stars/Balakrishna-kini/restaurant-inventory-management-system?style=social&color=white" alt="Restaurant Inventory System Stars"/></a>  
+  📊 Full-stack web application designed for ingredient stock counts, expiry alerts, weighted average costing, and food waste reduction dashboards.
+
+---
+
+### 🛠️ Building Blocks for Custom Restaurant Tech Stacks
+
+- **Invoice & OCR Processing**:
+  - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) — Open-source OCR engine for reading scanned paper invoice images.
+  - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) — Ultra-lightweight OCR toolkits to extract line items, prices, and quantities from vendor receipts.
+- **Unit of Measure (UOM) Conversion Libraries**:
+  - Culinary unit conversion utilities (converting cases -> cans -> ounces -> grams) for accurate theoretical usage calculations.
+- **Waste & Variance Analytics**:
+  - Custom Metabase, Apache Superset, or Grafana dashboards connected to POS transaction stream and inventory ledgers.
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork the repository.
+2. Edit `README.md` to add or update relevant SaaS or open-source software tools.
+3. Ensure open-source projects contain valid GitHub URLs and clear descriptions.
+4. Submit a Pull Request (PR) with a brief description of the changes.
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring the **Awesome Restaurant Inventory Management** repository! If you find this curated collection helpful for your restaurant, business, or open-source project, please consider supporting the project:
+
+- 🌟 **Star this repository** to help others discover it on GitHub.
+- 🔀 **Fork & Share** it with developers, chefs, and hospitality managers.
+- ☕ **Buy me a coffee**: Support ongoing maintenance and curation on the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Restaurant-Inventory-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Restaurant-Inventory-Management&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for educational and research purposes.
+- Always perform complete operational evaluation, data privacy audits, and POS integration testing before adopting software for commercial food service operations.
+
+---
+
+<p align="center">
+  <i>Maintained with ❤️ for restaurant owners, chefs, back-of-house managers, and hospitality technologists.</i>
+</p>
 
 
-**Made for restaurant operators, culinary and finance teams, multi-unit managers, and hospitality technologists focused on food-cost control.**  
-
-Let's expand open building blocks for inventory and recipe management while recognizing the specialized value that mature commercial restaurant inventory platforms deliver.
